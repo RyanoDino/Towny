@@ -2412,6 +2412,10 @@ public class TownySettings {
 
 		return getBoolean(ConfigNodes.NATION_DEF_PUBLIC);
 	}
+	public static boolean getNationDefaultNeutral() {
+
+		return getBoolean(ConfigNodes.NATION_DEF_NEUTRAL);
+	}
 
 	public static String getNationDefaultBoard(){
 
